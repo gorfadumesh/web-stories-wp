@@ -29,5 +29,4 @@ export const WPBODY_ID = 'wpbody';
 export const DASHBOARD_LEFT_NAV_WIDTH = 288;
 export const DASHBOARD_TOP_MARGIN = 45;
 export const DEFAULT_DASHBOARD_TOP_SPACE = 10;
-
-export const HIDE_ON_SMALL_SCREENS = 'hide-on-small-screens';
+export const MIN_DASHBOARD_WIDTH = 1098;
