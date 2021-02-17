@@ -96,6 +96,7 @@ export default function BodyViewOptions({
                 type={DROPDOWN_TYPES.MENU}
                 selectedValue={currentSort}
                 onMenuItemClick={(_, newSort) => handleSortChange(newSort)}
+                popupFillWidth={false}
                 selectButtonStyles={css`
                   ${themeHelpers.expandTextPreset(
                     ({ paragraph }, sizes) => paragraph[sizes.SMALL]
